@@ -16,8 +16,6 @@ import Presentation from "./styled-compotents/Presentation";
 const Home = () => {
   const location = useLocation();
 
-  console.log(location);
-
   return (
     <Layout>
       <LeftSide>
