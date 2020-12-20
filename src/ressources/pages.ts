@@ -1,8 +1,16 @@
-const pages = [
+export interface Page {
+  key: string;
+  name: string;
+  url: string;
+  otherUrls?: string[];
+}
+
+const pages: Page[] = [
   {
     key: "01",
     name: "Skills",
     url: "/Skills",
+    otherUrls: ["/"],
   },
   {
     key: "02",

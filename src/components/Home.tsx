@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
-import pages from "../ressources/pages";
+import pages, { Page } from "../ressources/pages";
 import Experiences from "./Experiences";
 import Formations from "./Formations";
 import Projets from "./Projets";
@@ -12,9 +12,22 @@ import LeftSide from "./styled-compotents/LeftSide";
 import PageLink from "./styled-compotents/PageLink";
 import PagesLink from "./styled-compotents/PagesLink";
 import Presentation from "./styled-compotents/Presentation";
+import RightSide from "./styled-compotents/RightSide";
 
 const Home = () => {
   const location = useLocation();
+
+  const checkActiveUrl = (page: Page): boolean => {
+    if (page.otherUrls) {
+      const isActive = !![page.url, ...page.otherUrls].find(
+        (url) => url === location.pathname
+      );
+
+      return isActive;
+    }
+
+    return page.url === location.pathname;
+  };
 
   return (
     <Layout>
@@ -49,7 +62,7 @@ const Home = () => {
               <PageLink
                 key={page.key}
                 to={page.url}
-                active={page.url === location.pathname}
+                active={checkActiveUrl(page)}
               >
                 <span className="page-key">{page.key}</span>
                 <span className="page-name">{page.name}</span>
@@ -64,7 +77,7 @@ const Home = () => {
         </Contact>
       </LeftSide>
 
-      <div>
+      <RightSide>
         <Switch>
           <Route path="/Skills">
             <Skills />
@@ -81,8 +94,12 @@ const Home = () => {
           <Route path="/Projets">
             <Projets />
           </Route>
+
+          <Route path="/">
+            <Skills />
+          </Route>
         </Switch>
-      </div>
+      </RightSide>
     </Layout>
   );
 };
