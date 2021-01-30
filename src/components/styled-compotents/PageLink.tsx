@@ -7,6 +7,7 @@ interface PageLinkProps {
 
 const PageLink = styled(Link)<PageLinkProps>`
   color: ${({ current }) => (current ? "#FFF" : " #707070")};
+  font-size: 20px;
   text-decoration: none;
   text-decoration: none;
   transition: 250ms ease;
@@ -32,7 +33,7 @@ const PageLink = styled(Link)<PageLinkProps>`
       content: "";
       position: absolute;
       left: ${({ current }) => (current ? "-4.3rem" : "-2.3rem")};
-      top: 50%;
+      top: 35%;
       background: #707070;
       height: 2px;
       width: ${({ current }) => (current ? "3.5rem" : "1.5rem")};

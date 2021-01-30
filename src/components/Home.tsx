@@ -1,12 +1,9 @@
 import React from "react";
-import { Route, Switch, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import useCurrentColor from "../hooks/useCurrentColor";
 import pages, { Page } from "../ressources/pages";
-import Experiences from "./Experiences";
-import Formations from "./Formations";
-import Projets from "./Projets";
-import Skills from "./Skills";
+import AnimatedSwitch from "./Router/AnimatedSwitchPage";
 import AppWrapper from "./styled-compotents/AppWrapper";
 import Contact from "./styled-compotents/Contact";
 import ExternalLink from "./styled-compotents/ExternalLink";
@@ -117,27 +114,7 @@ const Home = () => {
         </LeftSide>
 
         <RightSide>
-          <Switch>
-            <Route path="/Skills">
-              <Skills />
-            </Route>
-
-            <Route path="/Experiences">
-              <Experiences />
-            </Route>
-
-            <Route path="/Formations">
-              <Formations />
-            </Route>
-
-            <Route path="/Projets">
-              <Projets />
-            </Route>
-
-            <Route path="/">
-              <Skills />
-            </Route>
-          </Switch>
+          <AnimatedSwitch />
         </RightSide>
       </Layout>
     </AppWrapper>

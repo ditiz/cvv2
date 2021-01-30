@@ -6,7 +6,6 @@ const SkillGroupConteneur = styled(RightSideElement)`
   display: block;
 
   .skill-group-name {
-    font: normal normal bold 12px/15px Montserrat;
     color: #f8f8f8;
     text-transform: uppercase;
   }

@@ -8,7 +8,7 @@ const Skills = () => {
     <>
       {skills.map((skillGroup) => (
         <SkillGroupConteneur key={skillGroup.groupName}>
-          <div className="skill-group-name">{skillGroup.groupName}</div>
+          <h2 className="skill-group-name">{skillGroup.groupName}</h2>
 
           <div className="skill-group-content">
             {skillGroup.subGroup.map((subGroup) => (

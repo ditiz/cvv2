@@ -115,18 +115,22 @@ const skills: SkillGroup[] = [
     ],
   },
   {
-    groupName: "Versionning",
+    groupName: "Autre",
     subGroup: [
+      {
+        name: "Docker",
+        color: "#58BA9D",
+      },
+      {
+        name: "Command line",
+        color: "#58BA9D",
+      },
       {
         name: "Git",
         color: "#16a085",
       },
       {
         name: "SVN",
-        color: "#16a085",
-      },
-      {
-        name: "Mercurial",
         color: "#16a085",
       },
     ],
