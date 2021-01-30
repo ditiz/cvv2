@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import colors from "../../ressources/colors";
 import RightSideElement from "./RightSideElement";
 
-const ExperiencesElement = styled(RightSideElement)`
+const FormationsElement = styled(RightSideElement)`
   margin: 1rem 0;
   padding: 2rem 1rem;
 
@@ -13,8 +14,8 @@ const ExperiencesElement = styled(RightSideElement)`
   transition: 150ms ease;
 
   &:hover {
-    border: 1px solid #ec5242;
+    border: 1px solid ${colors.formations};
   }
 `;
 
-export default ExperiencesElement;
+export default FormationsElement;

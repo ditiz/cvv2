@@ -8,13 +8,13 @@ export interface Page {
 const pages: Page[] = [
   {
     key: "01",
-    name: "Skills",
+    name: "Compétences",
     url: "/Skills",
     otherUrls: ["/"],
   },
   {
     key: "02",
-    name: "Experiences",
+    name: "Expériences",
     url: "/Experiences",
   },
   {

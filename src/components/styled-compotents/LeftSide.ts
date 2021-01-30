@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
 const LeftSide = styled.div`
-  display: flex;
-  flex-flow: column;
+  display: grid;
+  grid-template-rows: auto auto auto 2rem;
+  row-gap: 1rem;
   justify-content: space-around;
   height: 100vh;
   margin-left: 4rem;
+
+  & > *:last {
+    align-items: end;
+  }
 `;
 
 export default LeftSide;

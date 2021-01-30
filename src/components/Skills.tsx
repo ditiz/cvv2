@@ -7,18 +7,18 @@ const Skills = () => {
   return (
     <>
       {skills.map((skillGroup) => (
-        <SkillGroupConteneur>
+        <SkillGroupConteneur key={skillGroup.groupName}>
           <div className="skill-group-name">{skillGroup.groupName}</div>
 
           <div className="skill-group-content">
             {skillGroup.subGroup.map((subGroup) => (
-              <div>
+              <div key={subGroup.name}>
                 <StyledSkill color={subGroup.color}>
                   {subGroup.name}
                 </StyledSkill>
                 <div>
                   {subGroup.skills?.map((skill) => (
-                    <StyledSkill color={subGroup.color}>
+                    <StyledSkill color={subGroup.color} key={skill.name}>
                       {skill.name}
                     </StyledSkill>
                   ))}
