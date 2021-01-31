@@ -12,6 +12,7 @@ const PageLink = styled(Link)<PageLinkProps>`
   text-decoration: none;
   transition: 250ms ease;
   position: relative;
+  display: flex;
 
   &:focus,
   &:hover,
@@ -19,6 +20,10 @@ const PageLink = styled(Link)<PageLinkProps>`
   &:link,
   &:active {
     text-decoration: none;
+  }
+
+  .page-key {
+    width: 1.5rem;
   }
 
   .page-name {

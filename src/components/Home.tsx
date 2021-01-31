@@ -39,37 +39,50 @@ const Home = () => {
             <Typewriter
               options={{
                 autoStart: true,
-                loop: true,
+                loop: false,
               }}
               onInit={(typewriter) => {
                 typewriter
+                  .pauseFor(1000)
                   .typeString("Hello World, I'm <br /> Mathieu Smarzyk")
-                  .pauseFor(5000)
-                  .deleteAll()
                   .start();
               }}
             />
           </Header>
 
           <Presentation>
-            Développeur react, je suis passionné par mon travail et désireux de
-            développer mes compétences. J’ai eu le plaisir de pouvoir travailler
-            chez Spartoo.com où j’ai pu apprendre énormément de choses dans le
-            domaine du webmarketing. Après avoir atteint les objectifs que je
-            m’étais fixés j’ai voulu découvrir un autre secteur d’activité avec
-            de nouveaux challenges j’ai donc intégré la société Nexus/Optim. En
-            parallèle, après l’obtention de mon diplôme j’ai continué mon
-            apprentissage en travaillant sur des projets personnels sur mon
-            temps libre afin d’approfondir mes connaissances dans différents
-            langages et apprendre de nouvelles technologies. Lors de mes
-            expériences et de ma formation, j’ai pu développer des compétences
-            qui me permettent d’accomplir des projets aussi bien de façon
-            autonome que de façon collective au sein d’une équipe où la cohésion
-            et un élément essentiel. Mon objectif est de pouvoir intégrer une
-            entreprise qui me permettra d’apporter ma motivation, ma passion
-            professionnelle et mon sérieux. Je recherche un secteur d’activité
-            me permettant d’acquérir de nouvelles compétences et de progresser
-            dans divers domaines.
+            <div>
+              <div>
+                Développeur full-stack, je suis passionné par mon travail et
+                désireux de développer mes compétences. J’ai eu le plaisir de
+                pouvoir travailler chez Spartoo.com où j’ai pu apprendre
+                énormément de choses dans le domaine du webmarketing.
+              </div>
+              <div>
+                Après avoir atteint les objectifs que je m’étais fixés j’ai
+                voulu découvrir un autre secteur d’activité avec de nouveaux
+                challenges j’ai donc intégré les sociétés Nexus/Optim et
+                CaSolutions. En parallèle, après l’obtention de mon diplôme j’ai
+                continué mon apprentissage en travaillant sur des projets
+                personnels sur mon temps libre afin d’approfondir mes
+                connaissances dans différents langages et apprendre de nouvelles
+                technologies.
+              </div>
+              <div>
+                Lors de mes expériences et de ma formation, j’ai pu développer
+                des compétences qui me permettent d’accomplir des projets aussi
+                bien de façon autonome que de façon collective au sein d’une
+                équipe où la cohésion et un élément essentiel. Mon objectif est
+                de pouvoir intégrer une entreprise qui me permettra d’apporter
+                ma motivation, ma passion professionnelle et mon sérieux. Je
+                recherche un secteur d’activité me permettant d’acquérir de
+                nouvelles compétences et de progresser dans divers domaines.
+              </div>
+              <div>
+                Fort de 4 ans d'expérience, je souhaiterais rejoindre une équipe
+                dynamique afin d'apporter mon savoir faire.
+              </div>
+            </div>
           </Presentation>
 
           <div>
@@ -80,8 +93,8 @@ const Home = () => {
                   to={page.url}
                   current={checkActiveUrl(page) ? 1 : 0}
                 >
-                  <span className="page-key">{page.key}</span>
-                  <span className="page-name">{page.name}</span>
+                  <div className="page-key">{page.key}</div>
+                  <div className="page-name">{page.name}</div>
                 </PageLink>
               ))}
             </PagesLink>

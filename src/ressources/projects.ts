@@ -3,11 +3,11 @@ const projects = [
     key: 0,
     name: "Trad-musik",
     description: `
-     Une méthode que j’ai beaucoup utilisé pour apprendre 
-     l’anglais fut de traduire des paroles de musique, 
-     j’ai créer cette outil pour m’aider dans cette tâche.
+     Une méthode que j’ai beaucoup utilisée pour apprendre 
+     l’anglais fut de traduire des paroles de musiques, 
+     j’ai créé cet outil pour m’aider dans cette tâche.
      Ce projet n’est actuellement plus en ligne car je travaille
-     sur une nouvelle version utilsant React + typescript et firebase 
+     sur une nouvelle version utilisant React + typescript et firebase.
     `,
     url: "",
     qrcode: "",
@@ -17,7 +17,7 @@ const projects = [
     key: 1,
     name: "Irregular Verbs",
     description: `
-      Site pour aider mon frère a apprendre les verbes irreguliers.
+      Site pour aider mon frère à apprendre les verbes irreguliers en anglais.
     `,
     url: "https://irregular-verbs.projets.smarzyk.com/",
     qrcode: "",
@@ -27,8 +27,8 @@ const projects = [
     key: 2,
     name: "Dev log",
     description: `
-      Site garder une trace des bouts de code pratique 
-      pour résoudre des problèmatiques particulières.
+      Site pour garder une trace des "bouts de code" pratiques
+      me permettant de résoudre des problèmatiques particulières.
       Ce projet m’a sourtout permis de découvrir firebase.
     `,
     url: "https://dev-log.projets.mathieu.smarzyk.com/",

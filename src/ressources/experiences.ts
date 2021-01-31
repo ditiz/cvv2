@@ -15,6 +15,9 @@ const experiences = [
     name: "Développeur chez Spartoo",
     description: `
       Suite à mon alternance, je fus engagé à Spartoo.
+      En temps que responsable de la Marketplace, je m'occupais de la maintenance de webservices 
+      et j'étais en relation avec les marchands partenaires pour leur permettre de résoudre 
+      les problèmes techniques. 
     `,
     start: "2018",
     end: "juin 2019",
@@ -22,14 +25,21 @@ const experiences = [
   {
     key: 3,
     name: "Développeur chez Nexus/Optim",
-    description: "J’ai du faire le travais d’un leav dev, le salaire en moins.",
+    description: `
+      J'ai réalisé un planning utilisé par 
+      les chirurgiens afin de leur permettre une simplification de leur organisation.
+    `,
     start: "juin 2019",
     end: "octobre 2019",
   },
   {
     key: 4,
-    name: "Développeur chez CACOM",
-    description: "Dev full stack js",
+    name: "Développeur chez CASolutions",
+    description: `
+      J'ai créé des services permettant entre autre de scanner un filesystem 
+      et je générais des previews en fonction des modifications appliqué sur celui-ci.
+      J'ai également créé une interface web permettant de visualiser les informations en base de données.
+    `,
     start: "octobre 2019",
     end: "Aujourd'hui",
   },

@@ -12,10 +12,11 @@ const formations = [
   },
   {
     key: 1,
-    name: "Formation formation en autodidacte",
+    name: "Formation en autodidacte",
     description: `
       J’ai commencé à me former en autodidacte dès mes 14ans, 
       avec l’aide du site du zéro sur du python.
+      J'ai continué en parallèle de mes études et de mon travail a développer mes compétences par moi-même.  
     `,
     start: "2009",
     end: "Aujourd’hui",
