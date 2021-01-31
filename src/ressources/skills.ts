@@ -22,10 +22,10 @@ const skills: SkillGroup[] = [
     groupName: "Compétences Frontend",
     groupDescription: `
      Ces 2 dernières années, je me suis spécialisé en React.js, 
-     qui est une technologie avec laquel je créé des applications web
+     qui est une technologie avec laquelle je crée des applications web
      depuis à présent 4 ans.
-     Bien que j'apprecie particulierement travailler avec React, je continue a mettre 
-     mes connaissances a jours, comme par exemple Vue.js ou encore Svelte.
+     Bien que j'apprecie particulièrement travailler avec React, je continue à mettre 
+     mes connaissances à jour, comme par exemple Vue.js ou encore Svelte.
      `,
     mainColor: "#f4845f",
     subGroup: [
@@ -73,9 +73,9 @@ const skills: SkillGroup[] = [
     key: 1,
     groupName: "Compétences Backend",
     groupDescription: `
-      Bien que je me sois davantagee consentre sur la partie frontend 
-      sur mes projets personnels, j'ai pu continuer a m'ameliorer dans 
-      les technologies backend dans un cadre professionel, notamment en node.js 
+      Bien que je me sois davantage concentré sur la partie frontend 
+      sur mes projets personnels, j'ai pu continuer à m'améliorer dans 
+      les technologies backend dans un cadre professionnel, notamment en node.js 
       chez CaSolutions et php chez Spartoo.
     `,
     mainColor: "#7bdff2",
@@ -123,11 +123,11 @@ const skills: SkillGroup[] = [
     key: 2,
     groupName: "Base de données",
     groupDescription: `
-     En entreprise, j'ai ete amener a utiliser principalement 2 types 
-     de base de donnees, MySql et ArrangoDB.
-     Dans mes prejets personnelles, j'ai principalement travaille avec 
-     MongoDb et recemment Firebase, qui me permet egalement 
-     d'heberger mes applications web.
+     En entreprise, j'ai été amené à utiliser principalement 2 types 
+     de base de données, MySql et ArrangoDB.
+     Dans mes projets personnels, j'ai principalement travaillé avec 
+     MongoDb et récemment Firebase, qui me permet également 
+     d'héberger mes applications web.
     `,
     mainColor: "#73a942",
     subGroup: [
@@ -159,14 +159,14 @@ const skills: SkillGroup[] = [
     key: 3,
     groupName: "Autre",
     groupDescription: `
-      Étant passionné d'informatique depuis tout petit, 
+      Étant passionné d'informatique depuis très jeune, 
       j'ai voulu tester tous les systèmes d'exploitant existants, 
       ce qui me permet aujourd'hui d'être à l'aise pour développer 
       aussi bien sur Windows que Mac ou Linux, avec quand même 
       une préférence pour ce dernier.
       Mon affection pour Linux m'a permis d'apprendre à utiliser 
       Git uniquement dans un shell, et je suis aussi très friand de Docker, 
-      qui m'évite autant de problème qu'il ne m'en créé.
+      qui m'évite autant de problème qu'il ne m'en crée.
     `,
     mainColor: "#9381ff",
     subGroup: [

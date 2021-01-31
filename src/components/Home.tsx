@@ -61,7 +61,7 @@ const Home = () => {
               <div>
                 Après avoir atteint les objectifs que je m’étais fixés j’ai
                 voulu découvrir un autre secteur d’activité avec de nouveaux
-                challenges j’ai donc intégré les sociétés Nexus/Optim et
+                challenges, j’ai donc intégré les sociétés Nexus/Optim et
                 CaSolutions. En parallèle, après l’obtention de mon diplôme j’ai
                 continué mon apprentissage en travaillant sur des projets
                 personnels sur mon temps libre afin d’approfondir mes
