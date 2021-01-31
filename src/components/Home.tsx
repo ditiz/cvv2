@@ -107,7 +107,6 @@ const Home = () => {
                 id="mail"
                 data-testid="mail"
                 color={currentColor}
-                noFontColor={true}
               >
                 mathieu.smarzyk@hotmail.fr
               </ExternalLink>
@@ -118,7 +117,6 @@ const Home = () => {
                 id="tel"
                 data-testid="tel"
                 color={currentColor}
-                noFontColor={true}
               >
                 06 44 30 33 02
               </ExternalLink>

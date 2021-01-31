@@ -1,7 +1,7 @@
 const colors = {
   default: "#64c97a",
-  experiences: "#ec5242",
-  formations: "#5098D6",
+  experiences: "#ef476f",
+  formations: "#4895ef",
   projects: "#64c97a",
 };
 

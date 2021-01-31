@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import colors from "../../ressources/colors";
 import RightSideElement from "./RightSideElement";
 
 const ExperiencesElement = styled(RightSideElement)`
@@ -13,7 +14,11 @@ const ExperiencesElement = styled(RightSideElement)`
   transition: 150ms ease;
 
   &:hover {
-    border: 1px solid #ec5242;
+    border: 1px solid ${colors.experiences};
+  }
+
+  h2 {
+    color: ${colors.experiences};
   }
 `;
 

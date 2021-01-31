@@ -16,6 +16,10 @@ const FormationsElement = styled(RightSideElement)`
   &:hover {
     border: 1px solid ${colors.formations};
   }
+
+  h2 {
+    color: ${colors.formations};
+  }
 `;
 
 export default FormationsElement;

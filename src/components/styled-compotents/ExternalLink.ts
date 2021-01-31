@@ -10,6 +10,7 @@ const ExternalLink = styled.a<ExternalLinkProps>`
   color: ${({ color, noFontColor }) => (noFontColor ? "#FFF" : color)};
   cursor: pointer;
   position: relative;
+  transition: 250ms ease;
 
   &:hover {
     &::before {
