@@ -26,6 +26,11 @@ const ProjectsElement = styled(RightSideElement)`
     display: flex;
     flex-flow: column nowrap;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    height: ${({ maxHeight }) => `calc(${maxHeight} + 5rem)`};
+  }
 `;
 
 export default ProjectsElement;

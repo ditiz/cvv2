@@ -11,6 +11,14 @@ const LeftSide = styled.div`
   & > *:last {
     align-items: end;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    height: auto;
+    margin: 1rem;
+  }
 `;
 
 export default LeftSide;

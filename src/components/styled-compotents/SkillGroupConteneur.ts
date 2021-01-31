@@ -13,6 +13,20 @@ const SkillGroupConteneur = styled(RightSideElement)`
   .skill-group-content {
     display: flex;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .skill-group-content {
+      margin: -1rem;
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      & > * {
+        margin: -0.8rem;
+      }
+    }
+  }
 `;
 
 export default SkillGroupConteneur;

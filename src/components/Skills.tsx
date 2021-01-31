@@ -28,9 +28,7 @@ const Skills = () => {
           </h2>
 
           <div className="details">
-            <div className="skill-group-description">
-              {skillGroup.groupDescription}
-            </div>
+            <div className="description">{skillGroup.groupDescription}</div>
 
             <div className="skill-group-content">
               {skillGroup.subGroup.map((subGroup) => (

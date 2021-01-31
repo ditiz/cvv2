@@ -11,6 +11,9 @@ const RightSideElement = styled.div<RightSideElementProps>`
   transition: 1s ease;
   overflow: hidden;
   height: ${({ maxHeight }) => maxHeight};
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 2rem;
 
   .details {
     transition: 1s ease;
@@ -24,6 +27,15 @@ const RightSideElement = styled.div<RightSideElementProps>`
 
     .description {
       opacity: 0.7;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    row-gap: 0rem;
+
+    .description {
+      width: 80%;
     }
   }
 `;
