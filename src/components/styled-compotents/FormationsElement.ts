@@ -16,6 +16,12 @@ const FormationsElement = styled(RightSideElement)`
   h2 {
     color: ${colors.formations};
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    height: ${({ showDetails, maxHeight }) =>
+      showDetails ? `calc(${maxHeight} + 6rem)` : `calc(${maxHeight} + 3rem)`};
+  }
 `;
 
 export default FormationsElement;

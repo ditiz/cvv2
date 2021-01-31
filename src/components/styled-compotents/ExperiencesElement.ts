@@ -19,7 +19,8 @@ const ExperiencesElement = styled(RightSideElement)`
 
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    height: ${({ maxHeight }) => `calc(${maxHeight} + 3rem)`};
+    height: ${({ showDetails, maxHeight }) =>
+      showDetails ? `calc(${maxHeight} + 8rem)` : `calc(${maxHeight} + 3rem)`};
   }
 `;
 
