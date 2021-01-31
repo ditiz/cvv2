@@ -9,8 +9,9 @@ const RightSide = styled.div`
 
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-
     margin: 0 1rem;
+    max-height: max-content;
+    overflow-y: auto;
   }
 `;
 
